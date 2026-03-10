@@ -1,0 +1,29 @@
+{
+  "name": "projects/14282702724079442386",
+  "projectId": "14282702724079442386",
+  "title": "Krea Clinical Psychology Landing Page",
+  "visibility": "PRIVATE",
+  "projectType": "PROJECT_DESIGN",
+  "origin": "STITCH",
+  "deviceType": "DESKTOP",
+  "designTheme": {
+    "colorMode": "LIGHT",
+    "font": "LEXEND",
+    "roundness": "ROUND_EIGHT",
+    "customColor": "#8a0000",
+    "saturation": 2
+  },
+  "screens": {
+    "index": {
+      "id": "5bfe85aa29754d3b8aa2686c8822a812",
+      "sourceScreen": "projects/14282702724079442386/screens/5bfe85aa29754d3b8aa2686c8822a812",
+      "x": 0,
+      "y": 0,
+      "width": 2560,
+      "height": 9802
+    }
+  },
+  "metadata": {
+    "userRole": "OWNER"
+  }
+}

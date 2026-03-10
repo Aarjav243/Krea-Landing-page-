@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MSc Clinical Psychology | Krea University</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#8a0000", // Deep Crimson
+                        "secondary": "#0F204B", // Navy Blue
+                        "background-light": "#f8f5f5",
+                        "background-dark": "#230f0f",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "md": "6px", // Button radius
+                        "lg": "8px", // Card radius
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Lexend', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-background-light text-slate-900 selection:bg-primary/20">
+<!-- Header -->
+<nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-primary/10">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<span class="material-symbols-outlined text-4xl">school</span>
+</div>
+<div class="flex flex-col">
+<span class="font-bold text-xl tracking-tight text-secondary">SIAS</span>
+<span class="text-[10px] uppercase tracking-widest text-slate-500">Krea University</span>
+</div>
+</div>
+<div class="hidden md:block text-secondary font-semibold text-lg">
+                MSc in Clinical Psychology
+            </div>
+<div class="flex items-center gap-4">
+<!-- Meritto Form Placeholder -->
+<div class="hidden lg:block w-48 h-10 bg-slate-100 rounded-md border border-dashed border-slate-300 flex items-center justify-center text-[10px] text-slate-400">
+                    MERITTO FORM WIDGET
+                </div>
+<button class="bg-primary text-white px-6 py-2 rounded-md font-bold text-sm hover:bg-primary/90 transition-colors">
+                    Apply Now
+                </button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative bg-white overflow-hidden py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<span class="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-6">Enrolling for 2024</span>
+<h1 class="text-5xl lg:text-6xl font-extrabold text-secondary leading-tight mb-6">
+                    Theory, Research, and Practice in <span class="text-primary">Clinical Psychology</span>
+</h1>
+<p class="text-lg text-slate-600 mb-10 max-w-lg leading-relaxed">
+                    Embark on a transformative journey with an empathetic approach to mental health and clinical excellence. Bridging the gap between scientific rigor and compassionate care.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-md font-bold text-lg shadow-lg shadow-primary/20 hover:translate-y-[-2px] transition-all">
+                        Apply Now
+                    </button>
+<button class="border-2 border-secondary text-secondary px-8 py-4 rounded-md font-bold text-lg hover:bg-secondary hover:text-white transition-all">
+                        Download Brochure
+                    </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-12 -right-12 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+<div class="relative rounded-xl overflow-hidden shadow-2xl">
+<img alt="Modern Psychology Lab" class="w-full h-[500px] object-cover" data-alt="Modern psychology laboratory with students collaborating" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_rJDfAyVE9-jdWRbbWB4695waBStxDpzOr7sdJCUyDYKqi8eivnQMS4pgyznFaiBQyRd_dCI_b7eGuHfk_i631dAtGuDwDFADUZPs6NkZoOhWKEKmfIsP0foO4Q0kdz3djrCYSpyX2Tna80e1FWQ5VwwkFolkhtsYnZ8GgifLP4sGKMgUEJMqeiRrhWLjwzI6k-owQc_bYCNt3sytTgc_q_Yy2DDWuxV0ilMf0FVT1yszEzjZlGOXLu7HvDwaZ5pXKWbkoP9w__Lb"/>
+<div class="absolute inset-0 bg-gradient-to-t from-secondary/40 to-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pitch: Launchpad Diagram -->
+<section class="py-20 bg-background-light">
+<div class="max-w-5xl mx-auto px-6 text-center">
+<h2 class="text-3xl font-bold text-secondary mb-16">Your Clinical Psychology Launchpad</h2>
+<div class="flex flex-col md:flex-row items-center justify-between gap-8 relative">
+<!-- Connector Line -->
+<div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-primary/20 -translate-y-1/2 z-0"></div>
+<!-- Step 1 -->
+<div class="relative z-10 bg-white p-8 rounded-lg shadow-sm border border-slate-100 w-full md:w-64">
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white mx-auto mb-4">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<h3 class="font-bold text-secondary text-xl mb-2">Theory</h3>
+<p class="text-sm text-slate-500">Advanced foundations in psychological frameworks.</p>
+</div>
+<span class="material-symbols-outlined text-primary text-3xl md:hidden">arrow_downward</span>
+<!-- Step 2 -->
+<div class="relative z-10 bg-white p-8 rounded-lg shadow-sm border border-slate-100 w-full md:w-64 scale-110">
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white mx-auto mb-4">
+<span class="material-symbols-outlined text-3xl">biotech</span>
+</div>
+<h3 class="font-bold text-secondary text-xl mb-2">Research</h3>
+<p class="text-sm text-slate-500">Scientific inquiry and evidence-based methodologies.</p>
+</div>
+<span class="material-symbols-outlined text-primary text-3xl md:hidden">arrow_downward</span>
+<!-- Step 3 -->
+<div class="relative z-10 bg-white p-8 rounded-lg shadow-sm border border-slate-100 w-full md:w-64">
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white mx-auto mb-4">
+<span class="material-symbols-outlined text-3xl">psychology_alt</span>
+</div>
+<h3 class="font-bold text-secondary text-xl mb-2">Practice</h3>
+<p class="text-sm text-slate-500">Hands-on clinical training and supervised internship.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Snapshot -->
+<section class="pb-20 bg-background-light">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid md:grid-cols-3 gap-6">
+<div class="bg-secondary text-white p-8 rounded-lg flex items-center gap-6">
+<span class="material-symbols-outlined text-4xl text-primary/40">schedule</span>
+<div>
+<p class="text-xs uppercase tracking-widest opacity-70">Duration</p>
+<p class="text-2xl font-bold">2 Full Years</p>
+</div>
+</div>
+<div class="bg-secondary text-white p-8 rounded-lg flex items-center gap-6">
+<span class="material-symbols-outlined text-4xl text-primary/40">apartment</span>
+<div>
+<p class="text-xs uppercase tracking-widest opacity-70">Structure</p>
+<p class="text-2xl font-bold">4 Trimesters On-Campus</p>
+</div>
+</div>
+<div class="bg-secondary text-white p-8 rounded-lg flex items-center gap-6">
+<span class="material-symbols-outlined text-4xl text-primary/40">verified</span>
+<div>
+<p class="text-xs uppercase tracking-widest opacity-70">Accreditation</p>
+<p class="text-2xl font-bold">RCI Standards Aligned</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us Grid -->
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-16 text-center lg:text-left">
+<h2 class="text-3xl lg:text-4xl font-bold text-secondary mb-4">Why Choose Krea SIAS?</h2>
+<div class="h-1.5 w-24 bg-primary rounded-full mb-8 lg:mx-0 mx-auto"></div>
+</div>
+<div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="bg-slate-50 p-8 rounded-lg border border-slate-100 hover:shadow-xl hover:shadow-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">integration_instructions</span>
+<h4 class="font-bold text-secondary mb-2">Integrated Training</h4>
+<p class="text-sm text-slate-600 leading-relaxed">Harmonizing theoretical insights with practical clinical applications.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-slate-50 p-8 rounded-lg border border-slate-100 hover:shadow-xl hover:shadow-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">hub</span>
+<h4 class="font-bold text-secondary mb-2">Interwoven Learning</h4>
+<p class="text-sm text-slate-600 leading-relaxed">Connecting diverse psychological domains for a holistic understanding.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-slate-50 p-8 rounded-lg border border-slate-100 hover:shadow-xl hover:shadow-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">handshake</span>
+<h4 class="font-bold text-secondary mb-2">Hands-on Focus</h4>
+<p class="text-sm text-slate-600 leading-relaxed">Direct clinical observation and case-based learning protocols.</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-slate-50 p-8 rounded-lg border border-slate-100 hover:shadow-xl hover:shadow-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">clinical_notes</span>
+<h4 class="font-bold text-secondary mb-2">Immersive Field Exp</h4>
+<p class="text-sm text-slate-600 leading-relaxed">Extensive supervised placements in leading hospitals and clinics.</p>
+</div>
+<!-- Card 5 -->
+<div class="bg-slate-50 p-8 rounded-lg border border-slate-100 hover:shadow-xl hover:shadow-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">healing</span>
+<h4 class="font-bold text-secondary mb-2">Therapeutic Frameworks</h4>
+<p class="text-sm text-slate-600 leading-relaxed">Expertise in CBT, Psychodynamic, and Humanistic approaches.</p>
+</div>
+<!-- Card 6 -->
+<div class="bg-slate-50 p-8 rounded-lg border border-slate-100 hover:shadow-xl hover:shadow-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">diversity_3</span>
+<h4 class="font-bold text-secondary mb-2">Interdisciplinary</h4>
+<p class="text-sm text-slate-600 leading-relaxed">Collaborate with neuroscientists, social workers, and ethicists.</p>
+</div>
+<!-- Card 7 -->
+<div class="bg-slate-50 p-8 rounded-lg border border-slate-100 hover:shadow-xl hover:shadow-primary/5 transition-all col-span-1 lg:col-span-2">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">supervisor_account</span>
+<h4 class="font-bold text-secondary mb-2">Faculty Mentorship</h4>
+<p class="text-sm text-slate-600 leading-relaxed">1-on-1 guidance from seasoned practitioners and active researchers in the field of clinical psychology.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Course Structure Timeline -->
+<section class="py-24 bg-background-light">
+<div class="max-w-7xl mx-auto px-6">
+<h2 class="text-3xl font-bold text-secondary mb-16 text-center">Program Journey</h2>
+<div class="grid md:grid-cols-3 gap-8 relative">
+<!-- Column 1 -->
+<div class="bg-white p-8 rounded-lg border-t-4 border-primary shadow-sm">
+<div class="text-primary font-bold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined">auto_stories</span> Trimesters 1-4
+                    </div>
+<h3 class="text-xl font-bold text-secondary mb-4">Coursework</h3>
+<ul class="space-y-3 text-sm text-slate-600">
+<li class="flex gap-2"><span>•</span> Psychopathology &amp; Diagnosis</li>
+<li class="flex gap-2"><span>•</span> Psychotherapy Techniques</li>
+<li class="flex gap-2"><span>•</span> Advanced Research Design</li>
+<li class="flex gap-2"><span>•</span> Neuropsychological Assessment</li>
+</ul>
+</div>
+<!-- Column 2 -->
+<div class="bg-white p-8 rounded-lg border-t-4 border-primary shadow-sm">
+<div class="text-primary font-bold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined">analytics</span> Trimesters 4-6
+                    </div>
+<h3 class="text-xl font-bold text-secondary mb-4">Dissertation/Thesis</h3>
+<ul class="space-y-3 text-sm text-slate-600">
+<li class="flex gap-2"><span>•</span> Primary Data Collection</li>
+<li class="flex gap-2"><span>•</span> Statistical Analysis</li>
+<li class="flex gap-2"><span>•</span> Scientific Writing</li>
+<li class="flex gap-2"><span>•</span> Research Defense</li>
+</ul>
+</div>
+<!-- Column 3 -->
+<div class="bg-white p-8 rounded-lg border-t-4 border-primary shadow-sm">
+<div class="text-primary font-bold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined">medical_services</span> Trimesters 5-6
+                    </div>
+<h3 class="text-xl font-bold text-secondary mb-4">Field Immersion</h3>
+<ul class="space-y-3 text-sm text-slate-600">
+<li class="flex gap-2"><span>•</span> Full-time Supervised Internship</li>
+<li class="flex gap-2"><span>•</span> Case Presentation Rounds</li>
+<li class="flex gap-2"><span>•</span> Community Mental Health</li>
+<li class="flex gap-2"><span>•</span> Professional Ethics</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Facilities -->
+<section class="py-24 bg-white overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1 relative">
+<div class="grid grid-cols-2 gap-4">
+<img alt="Advanced EEG Lab" class="rounded-lg shadow-md w-full h-48 object-cover" data-alt="Modern clinical research lab with brain imaging equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyxVLzpZsZ7WQgjwb9zyFL07B9DwYF-dEj33YfVoXCy2sN8k4W8ZIVKj4MLc5TdLXTC0Kwk2YXBjJMAewhzv3k4T9mThMUgOekXoIqbPrNds0yhwwnQEz2H3zJsRpyzD5dOIWlex-X9WOJ7SdLW8Mz2l7cevhfLgptVWx8HWxHKNc4LoSwbKDKILsCjTTB-2LTrWTHLaYpCfN5TjuN1ZFOWAD6_ss7pAiDOJo_kB3W1H60AdWq0kW9hjTAcngtxmoCEFZyLVY0uuUb"/>
+<img alt="VR Simulation" class="rounded-lg shadow-md w-full h-48 object-cover mt-8" data-alt="Student using virtual reality equipment for psychological simulation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYqabo4yzuOw9uC9LHQb-nwPQSDd0b9a0bzca9sE4RJsexh16rVqhntdkbppk59Ptl3bdXWah9D5O5WczbIfgkrraUeNxP0X4cXQ1yiUZbE1-vN3h15NMwvsxRq6tQ1PCUtualCgEK3S7BJ7JRSbcQk4xv2Z92WA4NrxLILsx1d8aow1w3ExC4GACZIJvsTNE03SOVmmQoAH-XOydyCndpINa1QNQYPfQNnUrosFZh806MOZygKQVfWu8t4b-j2PHf83NeR_v8YtVg"/>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<h2 class="text-3xl font-bold text-secondary mb-6">World-Class Clinical Lab</h2>
+<p class="text-slate-600 mb-8 leading-relaxed">
+                    Our state-of-the-art Clinical Psychology Lab provides students with access to cutting-edge research technology and diagnostic tools, fostering a culture of innovation.
+                </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex items-center gap-3 text-secondary font-medium">
+<span class="material-symbols-outlined text-primary">sensors</span> EEG Systems
+                    </div>
+<div class="flex items-center gap-3 text-secondary font-medium">
+<span class="material-symbols-outlined text-primary">visibility</span> Eye Tracking
+                    </div>
+<div class="flex items-center gap-3 text-secondary font-medium">
+<span class="material-symbols-outlined text-primary">view_in_ar</span> VR Therapy Kits
+                    </div>
+<div class="flex items-center gap-3 text-secondary font-medium">
+<span class="material-symbols-outlined text-primary">monitoring</span> fNIRS Tech
+                    </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Eligibility & Careers -->
+<section class="py-24 bg-secondary text-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-16 mb-20">
+<div class="space-y-8">
+<h2 class="text-3xl font-bold border-b border-white/20 pb-4">Who Should Apply</h2>
+<p class="opacity-80">Ideal for passionate individuals with a strong foundation in psychology who wish to bridge research and professional practice.</p>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<span>Aspirants seeking careers in clinical mental health.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<span>Students interested in neuropsychological research.</span>
+</li>
+</ul>
+</div>
+<div class="space-y-8">
+<h2 class="text-3xl font-bold border-b border-white/20 pb-4">Eligibility</h2>
+<div class="bg-white/5 p-8 rounded-lg">
+<p class="text-lg font-semibold mb-4 text-primary">Undergraduate Degree</p>
+<p class="opacity-80 leading-relaxed">
+                            Bachelor's degree in Psychology or related field (Sociology, Medicine, Education) from a recognized university with minimum 55% aggregate.
+                        </p>
+</div>
+</div>
+</div>
+<div class="text-center">
+<h3 class="text-2xl font-bold mb-12">Career Pathways</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="group cursor-default">
+<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined">local_hospital</span>
+</div>
+<p class="font-bold">Hospitals</p>
+</div>
+<div class="group cursor-default">
+<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined">school</span>
+</div>
+<p class="font-bold">Schools &amp; Edu</p>
+</div>
+<div class="group cursor-default">
+<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined">groups</span>
+</div>
+<p class="font-bold">NGOs</p>
+</div>
+<div class="group cursor-default">
+<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined">policy</span>
+</div>
+<p class="font-bold">Policy &amp; Research</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Campus Section -->
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-3xl font-bold text-secondary mb-6">Our Sri City Campus</h2>
+<p class="text-slate-600 mb-6 leading-relaxed">
+                        Nestled in the vibrant ecosystem of Sri City, our campus offers a serene environment conducive to intensive learning and research. Spread across 40 acres, the residential campus is designed to foster "Interwoven Learning".
+                    </p>
+<div class="flex items-center gap-4 text-secondary font-semibold">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span>Sri City, Andhra Pradesh, India</span>
+</div>
+</div>
+<div class="aspect-video bg-slate-100 rounded-lg overflow-hidden relative group">
+<img alt="Krea Campus Aerial" class="w-full h-full object-cover" data-alt="Aerial view of a modern university campus with green spaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-g1p8OLEMP8wItYAV5GTsvwDV-GRnjywF3ttGUHcKEE9N_QtK8K7vl8ZnLZg0KfbmPjacWiFVlUOly5DWKaKyXKT_nJG8HcDyaFFXRm0G8DKS5g9f-AFwTRtf3-eVKAUJ5UmpRxAYIr1SW_GBUMUA71V3g_AMkg8hB2ypSEpbWyomLBdQp2sDun8-rVmADBnuGcciGDaMY_0DoYfoPIid43wq4c8gNtu03Ryt4O3U4fe2zqcNz65wthYCTXz0682tHzQDpiItnvNR"/>
+<div class="absolute inset-0 bg-secondary/20 flex items-center justify-center">
+<div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-2xl cursor-pointer hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-5xl">play_arrow</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-secondary text-white py-16">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-3xl text-primary">school</span>
+<span class="font-bold text-xl tracking-tight">SIAS | Krea</span>
+</div>
+<p class="text-white/60 text-sm leading-relaxed">
+                    Division of Humanities and Social Sciences.<br/>
+                    School of Interwoven Arts and Sciences (SIAS).
+                </p>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-primary">Contact Us</h4>
+<div class="space-y-4 text-sm text-white/60">
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-sm">mail</span>
+<span>admissions@krea.edu.in</span>
+</div>
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-sm">phone</span>
+<span>+91 1234 567 890</span>
+</div>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-primary">Address</h4>
+<p class="text-sm text-white/60 leading-relaxed">
+                    Krea University, 5655, Central Expressway,<br/>
+                    Sri City, Andhra Pradesh 517646
+                </p>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-white/10 text-center text-xs text-white/40">
+            © 2024 Krea University. All Rights Reserved. MSc Clinical Psychology Program.
+        </div>
+</footer>
+</body></html>
