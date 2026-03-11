@@ -107,6 +107,14 @@ const LiquidCard: React.FC<{ children: React.ReactNode; index: number }> = ({ ch
       transition={{ delay: index * 0.1, duration: 0.6 }}
       className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 flex flex-col items-center group relative overflow-hidden h-full hover:shadow-2xl transition-all duration-300"
     >
+      {/* Live Border Draw on Hover */}
+      <div className="absolute inset-0 z-20 pointer-events-none">
+        <div className="absolute top-0 left-0 h-1 bg-[#8a2214] w-0 group-hover:w-full transition-all duration-300 delay-0" />
+        <div className="absolute top-0 right-0 w-1 bg-[#8a2214] h-0 group-hover:h-full transition-all duration-300 delay-150" />
+        <div className="absolute bottom-0 right-0 h-1 bg-[#8a2214] w-0 group-hover:w-full transition-all duration-300 delay-300" />
+        <div className="absolute bottom-0 left-0 w-1 bg-[#8a2214] h-0 group-hover:h-full transition-all duration-300 delay-450" />
+      </div>
+
       {/* Liquid Edge Animation (Maroon) */}
       <div className="absolute left-0 bottom-0 w-1.5 bg-rose-50 h-full z-0 pointer-events-none">
         <motion.div 

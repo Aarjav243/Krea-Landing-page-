@@ -85,7 +85,15 @@ const SnapshotCard: React.FC<{ item: any; index: number }> = ({ item, index }) =
       style={{ transformStyle: 'preserve-3d' }}
       className="bg-white text-slate-800 p-8 rounded-3xl flex flex-col items-center text-center gap-4 relative group cursor-pointer overflow-hidden shadow-xl border border-slate-100 perspective-1000"
     >
-      {/* 2. Liquid Fill Tubes (Updated to Maroon theme) */}
+      {/* 2. Live Border Draw on Hover */}
+      <div className="absolute inset-0 z-10 pointer-events-none">
+        <div className="absolute top-0 left-0 h-1 bg-[#8a2214] w-0 group-hover:w-full transition-all duration-300 delay-0" />
+        <div className="absolute top-0 right-0 w-1 bg-[#8a2214] h-0 group-hover:h-full transition-all duration-300 delay-150" />
+        <div className="absolute bottom-0 right-0 h-1 bg-[#8a2214] w-0 group-hover:w-full transition-all duration-300 delay-300" />
+        <div className="absolute bottom-0 left-0 w-1 bg-[#8a2214] h-0 group-hover:h-full transition-all duration-300 delay-450" />
+      </div>
+
+      {/* 3. Liquid Fill Tubes (Updated to Maroon theme) */}
       <div className="absolute left-0 bottom-0 w-2 bg-rose-50 h-full pointer-events-none" style={{ transform: 'translateZ(-10px)' }}>
         <motion.div 
           initial={{ height: 0 }}

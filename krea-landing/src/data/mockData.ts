@@ -97,7 +97,7 @@ export const facilitiesData = {
   ],
   images: [
     "/Psychology lab/_DSC5182.JPG",
-    "/Psychology lab/_DSC5209.JPG"
+    "/physh_lab_image.jpg"
   ]
 };
 
@@ -135,5 +135,5 @@ export const campusData = {
   title: "Our Sri City Campus",
   description: "Nestled in the vibrant ecosystem of Sri City, our campus offers a serene environment conducive to intensive learning and research. Spread across 40 acres, the residential campus is designed to foster \"Interwoven Learning\".",
   location: "Sri City, Andhra Pradesh, India",
-  image: "https://lh3.googleusercontent.com/aida-public/AB6AXuD-g1p8OLEMP8wItYAV5GTsvwDV-GRnjywF3ttGUHcKEE9N_QtK8K7vl8ZnLZg0KfbmPjacWiFVlUOly5DWKaKyXKT_nJG8HcDyaFFXRm0G8DKS5g9f-AFwTRtf3-eVKAUJ5UmpRxAYIr1SW_GBUMUA71V3g_AMkg8hB2ypSEpbWyomLBdQp2sDun8-rVmADBnuGcciGDaMY_0DoYfoPIid43wq4c8gNtu03Ryt4O3U4fe2zqcNz65wthYCTXz0682tHzQDpiItnvNR"
+  image: "/krea-campus.jpg"
 };
