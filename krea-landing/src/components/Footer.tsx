@@ -5,15 +5,12 @@ const Footer: React.FC = () => {
     <footer className="bg-secondary text-white py-24 relative z-0">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-24 relative z-10">
         <div className="flex flex-col">
-          <div className="flex items-center gap-3 mb-10 h-20 -ml-6">
+          <div className="mb-10 h-20 -ml-6 flex items-center">
             <img 
               src="/sias-logo-black.png" 
               alt="SIAS Logo" 
               className="w-48 h-auto object-contain"
             />
-            <h3 className="font-bold text-3xl tracking-tight uppercase text-white leading-none whitespace-nowrap">
-              SIAS | KREA
-            </h3>
           </div>
           <div className="space-y-4">
             <p className="text-white text-lg leading-relaxed max-w-md opacity-90">
