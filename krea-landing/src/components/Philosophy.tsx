@@ -4,7 +4,7 @@ import { philosophyData } from '../data/mockData';
 
 const Philosophy: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
+  useScroll({
     target: containerRef,
     offset: ["start end", "end start"]
   });

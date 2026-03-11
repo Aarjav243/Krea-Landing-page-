@@ -1,5 +1,4 @@
 import React from 'react';
-import { navData } from '../data/mockData';
 
 const Navbar: React.FC = () => {
   const navLinks = [
