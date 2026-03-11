@@ -7,6 +7,7 @@ import Snapshot from './components/Snapshot';
 import Features from './components/Features';
 import CourseStructure from './components/CourseStructure';
 import Facilities from './components/Facilities';
+import PsychologyLabMarquee from './components/PsychologyLabMarquee';
 import Eligibility from './components/Eligibility';
 import Campus from './components/Campus';
 import Footer from './components/Footer';
@@ -48,6 +49,7 @@ function App() {
         <Features />
         <CourseStructure />
         <Facilities />
+        <PsychologyLabMarquee />
         <Eligibility />
         <Campus />
       </main>
