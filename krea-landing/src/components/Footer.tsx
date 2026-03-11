@@ -1,29 +1,32 @@
 import React from 'react';
-import { navData } from '../data/mockData';
 
 const Footer: React.FC = () => {
   return (
     <footer className="bg-secondary text-white py-24 relative z-0">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-16 relative z-10">
-        <div>
-          <div className="flex items-center gap-4 mb-8">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-24 relative z-10">
+        <div className="flex flex-col">
+          <div className="flex items-center gap-3 mb-10 h-20">
             <img 
               src="/sias-logo-black.png" 
               alt="SIAS Logo" 
-              className="w-32 h-auto object-contain"
+              className="w-48 h-auto object-contain"
             />
-            <span className="font-bold text-2xl tracking-tight uppercase">{navData.brand} | Krea</span>
+            <h3 className="font-bold text-3xl tracking-tight uppercase text-white leading-none whitespace-nowrap">
+              SIAS | KREA
+            </h3>
           </div>
-          <p className="text-white text-base leading-relaxed max-w-xs">
-            Division of Humanities and Social Sciences.<br/>
-            School of Interwoven Arts and Sciences (SIAS).
-          </p>
+          <div className="space-y-4">
+            <p className="text-white text-lg leading-relaxed max-w-md opacity-90">
+              Division of Humanities and Social Sciences.<br/>
+              School of Interwoven Arts and Sciences (SIAS).
+            </p>
+          </div>
         </div>
 
         <div>
-          <div className="flex items-center gap-3 mb-8">
-            <span className="material-symbols-outlined text-3xl text-primary">contact_support</span>
-            <h4 className="font-bold text-xl text-primary uppercase tracking-widest">Connect</h4>
+          <div className="flex items-center gap-3 mb-10 h-20">
+            <span className="material-symbols-outlined text-4xl text-primary">contact_support</span>
+            <h4 className="font-bold text-xl text-primary uppercase tracking-widest leading-none">Connect</h4>
           </div>
           <div className="space-y-6 text-base text-white">
             <div className="flex gap-4 items-center group cursor-pointer">
@@ -42,9 +45,9 @@ const Footer: React.FC = () => {
         </div>
 
         <div>
-          <div className="flex items-center gap-3 mb-8">
-            <span className="material-symbols-outlined text-3xl text-primary">location_on</span>
-            <h4 className="font-bold text-xl text-primary uppercase tracking-widest">Location</h4>
+          <div className="flex items-center gap-3 mb-10 h-20">
+            <span className="material-symbols-outlined text-4xl text-primary">location_on</span>
+            <h4 className="font-bold text-xl text-primary uppercase tracking-widest leading-none">Location</h4>
           </div>
           <p className="text-base text-white leading-relaxed max-w-xs">
             Krea University, 5655, Central Expressway,<br/>

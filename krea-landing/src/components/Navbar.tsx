@@ -11,19 +11,19 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="sticky top-0 z-50 bg-[#006699] border-b border-white/10 shadow-lg">
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 h-28 flex items-center justify-between">
         {/* Left: Logo & University Name */}
-        <div className="flex items-center gap-4 shrink-0">
+        <div className="flex items-center gap-6 shrink-0">
            <img 
              src="/sias-logo-black.png" 
              alt="SIAS Logo" 
-             className="w-32 h-auto object-contain"
+             className="w-48 h-auto object-contain"
            />
-          <div className="flex flex-col text-white">
-            <span className="font-bold text-[10px] lg:text-xs leading-tight tracking-wide whitespace-nowrap uppercase">
+          <div className="flex flex-col text-white border-l border-white/20 pl-6 py-1">
+            <span className="font-bold text-sm lg:text-base leading-tight tracking-widest whitespace-nowrap uppercase">
               SCHOOL OF INTERWOVEN
             </span>
-            <span className="font-bold text-[10px] lg:text-xs leading-tight tracking-wide whitespace-nowrap uppercase">
+            <span className="font-bold text-sm lg:text-base leading-tight tracking-widest whitespace-nowrap uppercase">
               ARTS AND SCIENCES
             </span>
           </div>
