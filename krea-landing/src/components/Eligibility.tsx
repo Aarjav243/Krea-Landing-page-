@@ -57,13 +57,13 @@ const Eligibility: React.FC = () => {
                   <li key={i} className="flex items-start gap-4 p-5 bg-white/5 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300 relative overflow-hidden group/item">
                     {/* Live Border Draw on Hover */}
                     <div className="absolute inset-0 z-20 pointer-events-none">
-                      <div className="absolute top-0 left-0 h-1 bg-[#ff4d4d] w-0 group-hover/item:w-full transition-all duration-300 delay-0" />
-                      <div className="absolute top-0 right-0 w-1 bg-[#ff4d4d] h-0 group-hover/item:h-full transition-all duration-300 delay-150" />
-                      <div className="absolute bottom-0 right-0 h-1 bg-[#ff4d4d] w-0 group-hover/item:w-full transition-all duration-300 delay-300" />
-                      <div className="absolute bottom-0 left-0 w-1 bg-[#ff4d4d] h-0 group-hover/item:h-full transition-all duration-300 delay-450" />
+                      <div className="absolute top-0 left-0 h-1 bg-[#8a2214] w-0 group-hover/item:w-full transition-all duration-300 delay-0" />
+                      <div className="absolute top-0 right-0 w-1 bg-[#8a2214] h-0 group-hover/item:h-full transition-all duration-300 delay-150" />
+                      <div className="absolute bottom-0 right-0 h-1 bg-[#8a2214] w-0 group-hover/item:w-full transition-all duration-300 delay-300" />
+                      <div className="absolute bottom-0 left-0 w-1 bg-[#8a2214] h-0 group-hover/item:h-full transition-all duration-300 delay-450" />
                     </div>
 
-                    <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center shrink-0 mt-0.5 relative z-10 group-hover/item:bg-[#ff4d4d] transition-colors">
+                    <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center shrink-0 mt-0.5 relative z-10 group-hover/item:bg-[#8a2214] transition-colors">
                       <span className="material-symbols-outlined text-white text-sm font-bold">arrow_forward_ios</span>
                     </div>
                     <span className="text-white font-semibold leading-snug relative z-10">{point}</span>
