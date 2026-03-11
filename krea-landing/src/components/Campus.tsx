@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { campusData } from '../data/mockData';
 
 const Campus: React.FC = () => {
@@ -33,17 +34,24 @@ const Campus: React.FC = () => {
           </div>
         </div>
 
-        <div className="pt-20 text-center pb-20">
-          <div className="space-y-12">
-            <h3 className="text-4xl lg:text-7xl font-extrabold text-secondary leading-tight">
+        <div className="pt-32 text-center pb-20">
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false }}
+            className="space-y-12 max-w-5xl mx-auto"
+          >
+            <h3 className="text-4xl lg:text-6xl font-black text-[#006699] leading-[1.2] tracking-tight">
               Applications for the MSc in <br/>
-              <span className="text-primary italic">Clinical Psychology</span> are now open.
+              <span className="text-[#8a2214] italic font-serif">Clinical Psychology</span> are now open.
             </h3>
             
-            <button className="bg-primary text-white px-16 py-8 rounded-2xl font-black text-2xl shadow-xl hover:bg-secondary transition-all active:scale-95">
-               APPLY NOW
-            </button>
-          </div>
+            <div className="flex justify-center">
+              <button className="bg-[#8a2214] text-white px-12 py-5 rounded-xl font-bold text-lg shadow-2xl hover:bg-[#a02b1a] transition-all transform hover:-translate-y-1 active:scale-95 tracking-widest uppercase">
+                 APPLY NOW
+              </button>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>

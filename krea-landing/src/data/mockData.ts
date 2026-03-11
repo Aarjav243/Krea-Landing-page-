@@ -96,8 +96,8 @@ export const facilitiesData = {
     { name: "Behavioural Finance", icon: "trending_up" }
   ],
   images: [
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuCyxVLzpZsZ7WQgjwb9zyFL07B9DwYF-dEj33YfVoXCy2sN8k4W8ZIVKj4MLc5TdLXTC0Kwk2YXBjJMAewhzv3k4T9mThMUgOekXoIqbPrNds0yhwwnQEz2H3zJsRpyzD5dOIWlex-X9WOJ7SdLW8Mz2l7cevhfLgptVWx8HWxHKNc4LoSwbKDKILsCjTTB-2LTrWTHLaYpCfN5TjuN1ZFOWAD6_ss7pAiDOJo_kB3W1H60AdWq0kW9hjTAcngtxmoCEFZyLVY0uuUb",
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuCYqabo4yzuOw9uC9LHQb-nwPQSDd0b9a0bzca9sE4RJsexh16rVqhntdkbppk59Ptl3bdXWah9D5O5WczbIfgkrraUeNxP0X4cXQ1yiUZbE1-vN3h15NMwvsxRq6tQ1PCUtualCgEK3S7BJ7JRSbcQk4xv2Z92WA4NrxLILsx1d8aow1w3ExC4GACZIJvsTNE03SOVmmQoAH-XOydyCndpINa1QNQYPfQNnUrosFZh806MOZygKQVfWu8t4b-j2PHf83NeR_v8YtVg"
+    "/Psychology lab/_DSC5182.JPG",
+    "/Psychology lab/_DSC5209.JPG"
   ]
 };
 
