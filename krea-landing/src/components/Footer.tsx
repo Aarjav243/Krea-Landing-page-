@@ -8,9 +8,9 @@ const Footer: React.FC = () => {
         <div>
           <div className="flex items-center gap-4 mb-8">
             <img 
-              src="/sias-logo-blue.png" 
+              src="/sias-logo-black.png" 
               alt="SIAS Logo" 
-              className="w-12 h-auto object-contain"
+              className="w-16 h-auto object-contain"
             />
             <span className="font-bold text-2xl tracking-tight uppercase">{navData.brand} | Krea</span>
           </div>
@@ -27,14 +27,14 @@ const Footer: React.FC = () => {
           </div>
           <div className="space-y-6 text-base text-white">
             <div className="flex gap-4 items-center group cursor-pointer">
-              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#8a2214] transition-colors">
-                <span className="material-symbols-outlined text-xl text-[#8a2214]">mail</span>
+              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center transition-colors">
+                <span className="material-symbols-outlined text-xl text-white">mail</span>
               </div>
               <span className="group-hover:text-primary transition-colors">clinical.psychology@krea.edu.in</span>
             </div>
             <div className="flex gap-4 items-center group cursor-pointer">
-              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#8a2214] transition-colors">
-                <span className="material-symbols-outlined text-xl text-[#8a2214]">phone</span>
+              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center transition-colors">
+                <span className="material-symbols-outlined text-xl text-white">phone</span>
               </div>
               <span className="group-hover:text-primary transition-colors">+91 1234 567 890</span>
             </div>
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 mt-24 pt-10 border-t border-[#8a2214] text-center text-sm text-white tracking-widest uppercase">
+      <div className="max-w-7xl mx-auto px-6 mt-24 pt-10 border-t border-[#8a2214] text-center text-sm text-white tracking-widest uppercase bg-transparent">
         © 2024 Krea University. All Rights Reserved. MSc Clinical Psychology Program.
       </div>
     </footer>
