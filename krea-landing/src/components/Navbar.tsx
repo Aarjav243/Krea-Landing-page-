@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
            <img 
              src="/sias-logo-black.png" 
              alt="SIAS Logo" 
-             className="w-24 h-auto object-contain"
+             className="w-32 h-auto object-contain"
            />
           <div className="flex flex-col text-white">
             <span className="font-bold text-[10px] lg:text-xs leading-tight tracking-wide whitespace-nowrap uppercase">
