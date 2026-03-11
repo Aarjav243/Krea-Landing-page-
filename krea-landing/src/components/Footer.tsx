@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
             <img 
               src="/sias-logo-black.png" 
               alt="SIAS Logo" 
-              className="w-48 h-auto object-contain"
+              className="w-48 h-auto object-contain -ml-3"
             />
             <h3 className="font-bold text-3xl tracking-tight uppercase text-white leading-none whitespace-nowrap">
               SIAS | KREA
