@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
             <img 
               src="/sias-logo-black.png" 
               alt="SIAS Logo" 
-              className="w-16 h-auto object-contain"
+              className="w-24 h-auto object-contain"
             />
             <span className="font-bold text-2xl tracking-tight uppercase">{navData.brand} | Krea</span>
           </div>
