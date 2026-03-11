@@ -7,7 +7,11 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-16 relative z-10">
         <div>
           <div className="flex items-center gap-4 mb-8">
-            <span className="material-symbols-outlined text-4xl text-primary drop-shadow-lg">school</span>
+            <img 
+              src="/sias-logo-blue.png" 
+              alt="SIAS Logo" 
+              className="w-12 h-auto object-contain"
+            />
             <span className="font-bold text-2xl tracking-tight uppercase">{navData.brand} | Krea</span>
           </div>
           <p className="text-white text-base leading-relaxed max-w-xs">
@@ -23,14 +27,14 @@ const Footer: React.FC = () => {
           </div>
           <div className="space-y-6 text-base text-white">
             <div className="flex gap-4 items-center group cursor-pointer">
-              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-xl">mail</span>
+              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#8a2214] transition-colors">
+                <span className="material-symbols-outlined text-xl text-[#8a2214]">mail</span>
               </div>
               <span className="group-hover:text-primary transition-colors">clinical.psychology@krea.edu.in</span>
             </div>
             <div className="flex gap-4 items-center group cursor-pointer">
-              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-xl">phone</span>
+              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#8a2214] transition-colors">
+                <span className="material-symbols-outlined text-xl text-[#8a2214]">phone</span>
               </div>
               <span className="group-hover:text-primary transition-colors">+91 1234 567 890</span>
             </div>
@@ -49,7 +53,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 mt-24 pt-10 border-t border-white/10 text-center text-sm text-white tracking-widest uppercase">
+      <div className="max-w-7xl mx-auto px-6 mt-24 pt-10 border-t border-[#8a2214] text-center text-sm text-white tracking-widest uppercase">
         © 2024 Krea University. All Rights Reserved. MSc Clinical Psychology Program.
       </div>
     </footer>

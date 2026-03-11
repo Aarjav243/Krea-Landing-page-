@@ -14,13 +14,11 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Left: Logo & University Name */}
         <div className="flex items-center gap-4 shrink-0">
-          <div className="bg-white p-1 rounded-sm overflow-hidden shadow-sm flex items-center justify-center">
-             <img 
-               src="/sias-logo-black.png" 
-               alt="SIAS Logo" 
-               className="w-12 h-auto object-contain"
-             />
-          </div>
+           <img 
+             src="/sias-logo-black.png" 
+             alt="SIAS Logo" 
+             className="w-12 h-auto object-contain"
+           />
           <div className="flex flex-col text-white">
             <span className="font-bold text-[10px] lg:text-xs leading-tight tracking-wide whitespace-nowrap uppercase">
               SCHOOL OF INTERWOVEN
