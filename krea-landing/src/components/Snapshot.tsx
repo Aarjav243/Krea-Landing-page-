@@ -104,8 +104,8 @@ const SnapshotCard: React.FC<{ item: any; index: number }> = ({ item, index }) =
       </div>
 
       <div className="relative z-10 flex flex-col items-center h-full justify-start mt-4" style={{ transform: 'translateZ(30px)' }}>
-        <div className="w-20 h-20 bg-cyan-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-cyan-100 transition-colors duration-500">
-           <span className="material-symbols-outlined text-4xl text-[#0077b6] group-hover:scale-110 transition-transform duration-500 block">
+        <div className="w-20 h-20 bg-rose-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-rose-100 transition-colors duration-500">
+           <span className="material-symbols-outlined text-4xl text-[#8a2214] group-hover:scale-110 transition-transform duration-500 block">
              {item.icon}
            </span>
         </div>
